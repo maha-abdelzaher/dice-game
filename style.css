@@ -66,9 +66,11 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
 }
@@ -132,9 +134,11 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
+
 .btn--hold {
   top: 46.1rem;
 }
@@ -165,13 +169,44 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
+
 .emojiEl:after {
   content: "🥳";
   display: inline-block;
   margin-left: 5px;
 }
-.hidden{
+
+.hidden {
   display: none;
 }
 
 
+@media (max-width: 768px) {
+  body {
+    display: block;
+    height: 100%;
+  }
+
+  main {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 20px;
+  }
+
+  .player {
+    padding: 9rem 3rem;
+  }
+
+  .btn--new {
+    top: 2rem;
+  }
+
+  .btn--roll {
+    top: 41.3rem;
+  }
+
+  .btn--hold {
+    top: 48.1rem;
+  }
+}
