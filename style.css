@@ -204,9 +204,19 @@ main {
 
   .btn--roll {
     top: 41.3rem;
+    left: inherit;
+    right: -76px;
   }
 
   .btn--hold {
-    top: 48.1rem;
+    top: 49.1rem;
+    left: inherit;
+    right: -37px;
   }
+  .dice {
+    position: absolute;
+    left: 20%;
+    top: 42.5rem;
+    transform: translateX(-50%);
+}
 }
